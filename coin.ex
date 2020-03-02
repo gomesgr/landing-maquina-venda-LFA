@@ -3,7 +3,7 @@ defmodule Coin do
     case amount do
       45 -> IO.puts "Coca cola recebida!"
       _ -> IO.puts("Falta mais #{45-amount} dinheiros")
-       receive_coin(send_message() + amount)
+       receive_coin(send_message + amount)
     end
   end
 
@@ -13,8 +13,8 @@ defmodule Coin do
 
   def send_message() do
      valor = IO.gets("Digite uma quantidade: ")
-     |> String.trim()
-     |> String.to_integer()
+     |> String.trim
+     |> String.to_integer
 
     case valor do
       10 -> valor
@@ -25,7 +25,7 @@ defmodule Coin do
   end
 
   def start() do
-    valor = send_message()
+    valor = send_message
     case valor do
       "Inválido" -> IO.puts valor
       _ -> receive_coin(valor)
