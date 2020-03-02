@@ -13,3 +13,4 @@ Proporcionada pelo professor **Max D'Angelo**.
 ### Informações
 * Gabriel R. Gomes
 * RGM: 17173761
+* Linguagem: Elixir
