@@ -8,7 +8,7 @@ defmodule Coin do
   end
 
   def receive_coin(amount) do
-    IO.puts "Dinheiro comido"
+    IO.puts "Coca recebida #{amount - 45} dinheiros comidos"
   end
 
   def send_message() do
