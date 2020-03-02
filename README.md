@@ -9,3 +9,7 @@ Proporcionada pelo professor **Max D'Angelo**.
 * A cada R$ 0,45, um refrigerante é recebido
 * Somente valores de R$0,45, R$ 0,10 ou R$ 0,25 são aceitos
 * Caso insira mais, o valor será "comido"
+
+### Informações
+* Gabriel R. Gomes
+* RGM: 17173761
