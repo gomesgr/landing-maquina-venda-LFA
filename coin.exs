@@ -18,7 +18,6 @@ defmodule Coin do
 
     case valor do
       10 -> valor
-      45 -> valor
       25 -> valor
       _ -> "Inválido"
      end    
